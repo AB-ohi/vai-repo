@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+header{
+    background-image: url(images/banner/banner3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 960px;
+    text-align: end;
+}
+/* nav-ber style */
+nav{
+    width: 100%;
+    
+    
+}
+
+.head-items{
+    display: flex;
+    justify-content: center;
+    gap: 735px;
+    
+}
+
+.btn{
+    margin-left: 30px;
+}
+
+.head-title{
+    width: 525px;
+    font-weight: 700;
+    font-size: 40px;
+    color: #ffffff;
+    margin-top: 216px;
+    text-align: end;
+}
+
+.head-para{
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 20px;
+    padding-left: 26px;
+    line-height: 23px;
+    color: #ffffff;
+    width: 494px;
+    text-align: end;
+}
+
+.primary-btn{
+    border: none;
+    background: #ffffff;
+    font-size: 20px;
+    line-height: 23px;
+    padding: 20px 25px;
+    border-radius: 5px;
+    margin: 20px 328px; 
+   
+
+}
+.primary-btn a{
+    text-decoration: none;
+    color: #005FAC;
+}
+/* failures of previous */
+.fail-conversation{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 250px;
+    margin-top: 130px;
+}
+.fail-list .list-head h1{
+    font-weight: 700;
+    font-size: 40px;
+    width: 288px;
+    margin-bottom: 24px;
+}
+.fail-list .fail-excuse p{
+    width: 416px;
+    font-weight: 300px;
+    font-size: 16px;
+    color: #525252;
+    margin-bottom: 20px;
+
+}
+.list-items{
+    margin-top: 16px;
+}
+.list-items ul li{
+    list-style: none;
+    list-style-image: url(images/icons/icons8-done-48.png);
+    margin-bottom: 13px;
+}
+.plan{
+    text-align: center;
+    margin-top: 130px;
+}
+.my-plan{
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+}
+
+.plan-items{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.items{
+    margin: 0 85px;
+}
+
+.items h1{
+    margin-top: 24px;
+    font-size: 30px;
+    line-height: 35px;
+}
+.items p{
+    margin-top: 16px;
+    font-size: 25px;
+    line-height: 29px;
+    color: #737272;
+}
+
+
+/* contract list style */
+
+.contract-lis{
+    display: flex;
+    justify-content: center;
+    margin-top: 130px;
+} 
+
+.contract{
+    background-image: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%),url(images/watch.png);
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 1140px;
+    border-radius: 5px;
+}
+.line-set{
+    margin: 60px 60px;
+}
+
+.contract-discretion{
+    font-weight: 700;
+    font-size: 35px;
+    width: 620px;
+    color: #ffffff;
+}
+
+.call-btn{
+    border: none;
+    background: #ffffff;
+    font-size: 20px;
+    line-height: 23px;
+    padding: 20px 25px;
+    border-radius: 5px;
+}
+
+.call-btn a{
+    text-decoration: none;
+    color: #005FAC;
+}
+/* footer style */
+
+footer{
+    height: 577px;
+    background: #151414;
+    margin-top: 130px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    gap: 402px;
+    
+}
+
+
+
+
+.footer-title{
+    font-weight: 700;
+    font-size: 45px;
+    color: #F8F8F8;
+    margin-top: 130px;
+}
+.footer-items p{
+    width: 485px;
+    color: #ffffff;
+    margin-bottom: 24px;
+}
+
+.footer-items img{
+    margin-right: 17px;
+}
+
+.Subscribe h1{
+    margin-top: 130px;
+    font-weight: 600;
+    font-size: 25px;
+    color: #ffffff;
+}
+
+.Subscribe input{
+    margin-top: 31px;
+    border: 2px solid #ffffff;
+    border-radius: 8px;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 21px;
+    color: #ffffff;
+    background: none;
+}
+
+.Subscribe-btn{
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 20px 35px;
+    background: #005FAC;
+    border-radius: 8px;
+    border: none;
+}
+
+.Subscribe-btn a{
+    text-decoration: none;
+    color: #ffffff;
+}
